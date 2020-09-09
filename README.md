@@ -11,5 +11,11 @@ I first created a uniformly random list of 1500 latitudes and longitudes. I then
 To find hotels in cities with ideal weather conditions I first loaded the CSV city data created in the WeatherPy notebook into a dataframe. Then using the gmaps widget I created a heatmap of humidity around the world to better visualize weather conditions around the world. Next I filtered the cities based on my ideal vacation conditions into a new dataframe and removed weather data from it. I then looped through the new dataframe and made an API call to Google Places to find a hotels in each city. I stored the first hotel for each city in a list and appeneded it to the dataframe. I filtered out any cities that did not return a hotel.
 
 ### Analysis
+- #### Max Temperature
+![Max Temperature](output_data/Max_Temp_vs_Latitude.png)
+
+Weather becomes becomes warmer as one approaches the equator (Latitude 0 degrees). Interestingly, the northern hemisphere, (latitude greater than 0 degrees), is warmer than the southern hemisphere (latitude less than 0 degrees). This may be due to the tilt of the earth. 
+
+![Max Temparature North](output_data/Max_Temp_vs_Latitude_North.png) ![Max Temperature South](output_data/Max_Temp_vs_Latitude_South.png)
 
 ### Try It Yourself
