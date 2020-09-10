@@ -17,5 +17,22 @@ To find hotels in cities with ideal weather conditions I first loaded the CSV ci
 Weather becomes becomes warmer as one approaches the equator (Latitude 0 degrees). Interestingly, the northern hemisphere, (latitude greater than 0 degrees), is warmer than the southern hemisphere (latitude less than 0 degrees). This may be due to the tilt of the earth. 
 
 ![Max Temparature North](output_data/Max_Temp_vs_Latitude_North.png) ![Max Temperature South](output_data/Max_Temp_vs_Latitude_South.png)
+The linear regression of the northern hemisphere has an r-squared value of  0.51 and the southern hemisphere has an r-squared value of 0.69. This means that even though there is a correlation between max temperature and distance from the equator, the relationship is not linear.
 
+- #### Humidity
+![Humidity](output_data/Humidity_vs_Latitude.png)
+
+![Humidity North](output_data/Humidity_vs_Latitude_North.png) ![Humidity South](output_data/Humidity_vs_Latitude_South.png)
+
+
+- #### Cloudiness
+![Humidity](output_data/Cloudiness_vs_Latitude.png)
+
+![Humidity North](output_data/Cloudiness_vs_Latitude_North.png) ![Humidity South](output_data/Cloudiness_vs_Latitude_South.png)
+
+
+- #### Wind Speed
+![Wind Speed](output_data/Wind_Speed_vs_Latitude.png)
+
+![Wind Speed North](output_data/Wind_Speed_vs_Latitude_North.png) ![Wind Speed South](output_data/Wind_Speed_vs_Latitude_South.png)
 ### Try It Yourself
