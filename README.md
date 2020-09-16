@@ -23,19 +23,20 @@ The linear regression of the northern hemisphere has an r-squared value of  0.51
 ![Humidity](output_data/Humidity_vs_Latitude.png)
 
 ![Humidity North](output_data/Humidity_vs_Latitude_North.png) ![Humidity South](output_data/Humidity_vs_Latitude_South.png)  
-There is no strong relationship between humidity and distance from the equator. It is interesting that the majority of cities in both the norhtern and southern hemisphere fall between 60 - 100% humidity. It is also interesting that there seems to be more cities in the northern hemisphere with humidity levels under 20% than in the southern hemisphere. This may due to there being more cities in the northern hemisphere in this sample set, so more analysis with a larger sample set would be needed to confirm this.
+There is no strong relationship between humidity and distance from the equator. It is interesting that the majority of cities in both the norhtern and southern hemisphere fall between 60 - 100% humidity. It is also interesting that there seem to be more cities in the northern hemisphere with humidity levels under 20% than in the southern hemisphere. This may due to there being more cities in the northern hemisphere in this sample set, so more analysis with a larger sample set would be needed to confirm this.
 
 
 - #### Cloudiness
 ![Cloudiness](output_data/Cloudiness_vs_Latitude.png)
 
 ![Cloudiness North](output_data/Cloudiness_vs_Latitude_North.png) ![Cloudiness South](output_data/Cloudiness_vs_Latitude_South.png)  
-There is no strong relationship between cloudiness and latitude.
+There is no strong relationship between cloudiness and latitude. It is interesting that there are bands of cities at 0,20,40,75, and 100% cloudiness in the northern hemisphere, where as there is only a band of cities at 0% cloudiness in the southern hemisphere.
 
 
 - #### Wind Speed
 ![Wind Speed](output_data/Wind_Speed_vs_Latitude.png)
 
 ![Wind Speed North](output_data/Wind_Speed_vs_Latitude_North.png) ![Wind Speed South](output_data/Wind_Speed_vs_Latitude_South.png)  
-There is no strong relationship between wind speed and latitude.
+There is no strong relationship between wind speed and latitude. The highest density of cities fall between 0-10 mph.  
+
 ### Try It Yourself
