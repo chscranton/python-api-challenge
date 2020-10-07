@@ -40,3 +40,16 @@ There is no strong relationship between cloudiness and latitude. It is interesti
 There is no strong relationship between wind speed and latitude. The highest density of cities fall between 0-10 mph.  
 
 ### Try It Yourself
+Both programs are located in the Notebooks folder and were created in a Python 3.7.6 environment. In order to run them you need these additional libraries installed in your environment:
+#### WeatherPy
+* [Matplotlib](https://matplotlib.org/): `!pip install matplotlib`  
+* [Pandas](https://pandas.pydata.org/): `!pip install pandas`
+* [NumPy](https://numpy.org/): `!pip install numpy`
+* [Requests](https://requests.readthedocs.io/en/master/): `!pip install requests`
+* [SciPy](https://www.scipy.org/): `!pip install scipy`
+* [Citipy](https://github.com/wingchen/citipy): `!pip install citipy` (Already in the notebook. Just uncomment if not already in your environment.)
+
+#### VacationPy
+* [Pandas](https://pandas.pydata.org/): `!pip install pandas`
+* [Requests](https://requests.readthedocs.io/en/master/): `!pip install requests`
+* [Gmaps](https://github.com/pbugnion/gmaps): `!pip install gmaps` (Already in the notebook. Just uncomment if not already in your environment.)
