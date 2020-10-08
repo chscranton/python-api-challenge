@@ -1,5 +1,10 @@
 # Weather Analysis
-### Project Descripiton
+* [Project Description](#project-description)  
+* [Methodology](#methodology) 
+* [Analysis](#analysis)  
+* [Try It Yourself](#try-it-yourself)
+
+### Project Description
 In this project I have analyzed different weather patterns, (temperature, humidity, cloudiness, and wind speed), and how they are affected by distance from the equator i.e. latitude. Additionally, I created a jupyter notebook that will find hotels in cities that match a user's ideal vacation weather (in my case between 70 and 80 degree Fahrenheit, wind speed less than 10 mph, and zero cloudiness). I then displayed the results on a map using the gmaps widget.
 
 ### Methodology
@@ -38,7 +43,6 @@ There is no strong relationship between cloudiness and latitude. It is interesti
 
 ![Wind Speed North](output_data/Wind_Speed_vs_Latitude_North.png) ![Wind Speed South](output_data/Wind_Speed_vs_Latitude_South.png)  
 There is no strong relationship between wind speed and latitude. The highest density of cities fall between 0-10 mph.  
-
 ### Try It Yourself
 Both programs are located in the Notebooks folder and were created in a Python 3.7.6 environment. In order to run them you need these additional libraries installed in your environment:
 #### WeatherPy
