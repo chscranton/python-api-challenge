@@ -57,3 +57,14 @@ Both programs are located in the Notebooks folder and were created in a Python 3
 * [Pandas](https://pandas.pydata.org/): `!pip install pandas`
 * [Requests](https://requests.readthedocs.io/en/master/): `!pip install requests`
 * [Gmaps](https://github.com/pbugnion/gmaps): `!pip install gmaps` (Already in the notebook. Just uncomment if not already in your environment.)
+
+Additionally, you will need API keys for [OpenWeatherMaps](https://openweathermap.org) and [Google APIs](https://console.developers.google.com/) to use in WeatherPy and VacationPy respectively:
+#### WeatherPy
+You can get an API key for OpenWeatherMaps [here](https://openweathermap.org/price). The notebook is configured to limit the amount of API calls made to the amount allowed by the free tier which means it will take about six minutes to run on average. However, you can speed this up by purchasing a higher tier and adjusting the wait time in the code accordingly. Once you have signed up you will find you API key in your profile under API keys. Copy this key and paste it in place of `YOUR API KEY HERE` in the api_keys.py, (located in the Notebooks folder):  
+```
+# OpenWeatherMap API Key   
+weather_api_key = "YOUR API KEY HERE"
+```
+Once you have installed all required libraries and saved your API key, the notebook is ready to run.
+
+#### VacationPy
