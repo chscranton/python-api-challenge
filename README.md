@@ -60,11 +60,18 @@ Both programs are located in the Notebooks folder and were created in a Python 3
 
 Additionally, you will need API keys for [OpenWeatherMaps](https://openweathermap.org) and [Google APIs](https://console.developers.google.com/) to use in WeatherPy and VacationPy respectively:
 #### WeatherPy
-You can get an API key for OpenWeatherMaps [here](https://openweathermap.org/price). The notebook is configured to limit the amount of API calls made to the amount allowed by the free tier which means it will take about six minutes to run on average. However, you can speed this up by purchasing a higher tier and adjusting the wait time in the code accordingly. Once you have signed up you will find you API key in your profile under API keys. Copy this key and paste it in place of `YOUR API KEY HERE` in the api_keys.py, (located in the Notebooks folder):  
+You can get an API key for OpenWeatherMaps [here](https://openweathermap.org/price). The notebook is configured to limit the amount of API calls made to the amount allowed by the free tier which means it will take about six minutes to run on average. However, you can speed this up by purchasing a higher tier and adjusting the wait time in the code accordingly. Once you have signed up you will find you API key in your profile under API keys. Copy this key and paste it in place of `YOUR API KEY HERE` in the api_keys.py (located in the Notebooks folder):  
 ```
 # OpenWeatherMap API Key   
 weather_api_key = "YOUR API KEY HERE"
 ```
-Once you have installed all required libraries and saved your API key, the notebook is ready to run.
+Once you have installed all required libraries and saved your API key, the WeatherPy notebook is ready to run.
 
 #### VacationPy
+In order to get a Google APIs key you will need to have a google account and set up a project with a billing account in the Google Developers Console. You can find instructions on how to do that and how to get an API key [here](https://developers.google.com/maps/documentation/embed/get-api-key). Although you will need to make a billing account, this notebook does not generate enough calls for you to be charged. If you are worried about being charged you can find instructions on how to set limits [here](https://cloud.google.com/apis/docs/capping-api-usage).  
+Once you have your key paste it in place of `YOUR API KEY HERE` in the api_keys.py (located in the Notebooks folder):
+```
+# Google API key  
+g_key = "YOUR API KEY HERE"
+```
+Once you have installed all required libraries and saved your API key, the VacationPy notebook is ready to run. It is recommended that you run the WeatherPy notebook before running the VacationPy notebook in order to have the most up-to-date weather information.
